@@ -1,0 +1,11 @@
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\bin\Debug\netcoreapp2.1\deliveryService.deps.json
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\bin\Debug\netcoreapp2.1\deliveryService.runtimeconfig.json
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\bin\Debug\netcoreapp2.1\deliveryService.runtimeconfig.dev.json
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\bin\Debug\netcoreapp2.1\deliveryService.dll
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\bin\Debug\netcoreapp2.1\deliveryService.pdb
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\obj\Debug\netcoreapp2.1\deliveryService.csprojAssemblyReference.cache
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\obj\Debug\netcoreapp2.1\deliveryService.csproj.CoreCompileInputs.cache
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\obj\Debug\netcoreapp2.1\deliveryService.AssemblyInfoInputs.cache
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\obj\Debug\netcoreapp2.1\deliveryService.AssemblyInfo.cs
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\obj\Debug\netcoreapp2.1\deliveryService.dll
+C:\папка\С# project\delivery-service\deliveryService\deliveryService\obj\Debug\netcoreapp2.1\deliveryService.pdb

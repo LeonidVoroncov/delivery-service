@@ -6,19 +6,19 @@ public abstract class ColorTape : Tape
 
     public abstract string HueTape { get; }
 
-    public class RedTape : ColorTape
-    {
-        public override string HueTape => "Red";
-    }
+    //public class RedTape : ColorTape
+    //{
+    //    public override string HueTape => "Red";
+    //}
 
-    public class YellowTape : ColorTape
-    {
-        public override string HueTape => "Yellow";
-    }
+    //public class YellowTape : ColorTape
+    //{
+    //    public override string HueTape => "Yellow";
+    //}
 
-    public class BlueTape : ColorTape
-    {
-        public override string HueTape => "Blue";
-    }
+    //public class BlueTape : ColorTape
+    //{
+    //    public override string HueTape => "Blue";
+    //}
 }
 

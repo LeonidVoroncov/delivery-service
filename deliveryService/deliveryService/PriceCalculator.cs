@@ -2,22 +2,23 @@
 
 public class PriceCalculator
 {
-    public int CalculatorMagicColor(MagicColor client)
+    private IConcreteCalculator[] _concreteCalculators;
+
+    public PriceCalculator(IConcreteCalculator[] concreteCalculators)
     {
-        return client.Price + client.Box.PriceBox + client.Tape.PriceTape;
+        _concreteCalculators = concreteCalculators;
     }
 
-    public int CalculatorGoldSecret(GoldSecret client)
+    public int CalculatePrice(Client client)
     {
-        if (client.Filler == true)
+        foreach (var concreteCalculator in _concreteCalculators)
         {
-            return client.Price + client.Box.PriceBox + 45;
+            if (concreteCalculator.IsSuitable(client))
+            {
+                return concreteCalculator.CalculatePrice(client);
+            }
         }
-        return client.Price + client.Box.PriceBox;
-    }
 
-    public int Calculator(Client client)
-    {
-        return client.Price + client.Box.PriceBox;
+        throw new ArgumentException("Неизвестная организация");
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Client
+public abstract class Client
 {
     public string Addres { get; set; }
 
@@ -9,8 +9,6 @@ public class Client
     public int Price { get; set; }
 
     public Box Box { get; set; }
-
-    public int Id { get; }
 
     public Client(string addres, string receiverName, int price, Box box)
     {

@@ -2,5 +2,5 @@
 
 public abstract class Tape
 {
-    public abstract int PriceTape { get; }
+    public abstract int PriceTape { get; }   
 }

@@ -7,10 +7,12 @@ public class PriceCalculatorGoldSecret : IConcreteCalculator
 
     public int CalculatePrice(Client client)
     {
-        if (client.Filler == true)
+        GoldSecret goldSecret = (GoldSecret)client;
+
+        if (goldSecret.Filler == true)
         {
-            return client.Price + client.Box.PriceBox + 45;
+            return goldSecret.Price + goldSecret.Box.PriceBox + 45;
         }
-        return client.Price + client.Box.PriceBox;
+        return goldSecret.Price + goldSecret.Box.PriceBox;
     }       
 }

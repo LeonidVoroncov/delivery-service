@@ -6,5 +6,9 @@ public class PriceCalculatorSimpleFirm : IConcreteCalculator
         => client is SimpleFirm;
 
     public int CalculatePrice(Client client)
-        => client.Price + client.Box.PriceBox;
+    {
+        SimpleFirm simpleFirm = (SimpleFirm)client;
+
+        return simpleFirm.Price + simpleFirm.Box.PriceBox;
+    }
 }

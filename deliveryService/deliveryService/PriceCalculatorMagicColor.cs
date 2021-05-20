@@ -2,9 +2,13 @@
 
 public class PriceCalculatorMagicColor : IConcreteCalculator
 {
-    public bool IsSuitable(Client client) 
+    public bool IsSuitable(Client client)
         => client is MagicColor;
 
-    public int CalculatePrice(Client client) 
-        => client.Price + client.Box.PriceBox + client.Tape.PriceTape;
+    public int CalculatePrice(Client client)
+    {
+        MagicColor magicColor = (MagicColor)client;
+
+        return magicColor.Price + magicColor.Box.PriceBox + magicColor.Tape.PriceTape;
+    }
 }
